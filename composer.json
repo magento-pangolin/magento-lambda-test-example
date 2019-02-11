@@ -1,0 +1,10 @@
+{
+    "require": {
+        "phpunit/phpunit-selenium": "*",
+        "facebook/webdriver": "dev-master"
+    },
+    "scripts": {
+        "sample": "phpunit SampleLambdaTest.php",
+        "magento": "phpunit MagentoLambdaTest.php"
+    }
+}
